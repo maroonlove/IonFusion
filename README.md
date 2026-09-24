@@ -9,8 +9,7 @@ This repository implements protein-function prediction using sequence, function,
 
 ## Dataset and Model
 
-Dataset and pretrained IonFusion model weights (used in the IonFusion paper):
-[Google Drive Link](https://drive.google.com/file/d/1TNcsLS6Qwrc1TKEwZRpi1ENrWz15VAc3/view?usp=drive_link)
+Dataset and pretrained IonFusion model weights used in the IonFusion paper are available in the [Hugging Face repository](https://doi.org/10.57967/hf/10587).
 
 ## Repository Layout
 
@@ -22,6 +21,7 @@ Dataset and pretrained IonFusion model weights (used in the IonFusion paper):
 │   └── preprocess/  # see preprocess/README.md
 ├── src/
 ├── configs/
+├── draw/          # figure plotting scripts; see draw/README.md
 ├── data/
 ├── outputs/
 ├── README_GO_prediction.md
@@ -69,6 +69,10 @@ bash configs/evaluate_go_bp10_example.sh
 ```
 
 Detailed workflow is in [`README_GO_prediction.md`](README_GO_prediction.md).
+
+## Figures
+
+Figure plotting scripts are in [`draw/`](draw/). See [`draw/README.md`](draw/README.md) for input requirements and usage. Input datasets and generated figures are not included in this directory.
 
 ## Notes
 
